@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Browse stories",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View paginated list of recent stories"
+            }
+          }
+        ],
+        "send": {
+          "callback": "browse:start"
+        }
+      }
+    ]
+  }
+]
