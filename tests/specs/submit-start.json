@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Submit story",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate story submission flow"
+            }
+          }
+        ],
+        "send": {
+          "callback": "submit:start"
+        }
+      }
+    ]
+  }
+]
